@@ -32,7 +32,7 @@ CREATE TABLE clientes (
     telefone VARCHAR(15) DEFAULT NULL,
     email VARCHAR(100) DEFAULT NULL,
     endereço VARCHAR(100) UNIQUE NOT NULL,
-    debito BOOLEAN() NOT NULL,
+    debito BOOLEAN NOT NULL,
     nascimento DATE NOT NULL,
     PRIMARY KEY (id)
 );
