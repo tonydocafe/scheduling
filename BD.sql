@@ -51,8 +51,8 @@ CREATE TABLE agendamentos (
         REFERENCES servico (id),
     CONSTRAINT fk_pedidos_clientes FOREIGN KEY (cliente_id)
         REFERENCES clientes (id),
-    CONSTRAINT fk_pedidos_funcionarios FOREIGN KEY (funcionarios_id)
-        REFERENCES funcionarios (id)
+    CONSTRAINT fk_pedidos_funcionario FOREIGN KEY (funcionario_id)
+        REFERENCES funcionario (id)
     
 );
 
