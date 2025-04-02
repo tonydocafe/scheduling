@@ -11,7 +11,7 @@ CREATE TABLE funcionario (
     password VARCHAR(100) NOT NULL,
     nascimento DATE NOT NULL,
     endereço VARCHAR(100) UNIQUE NOT NULL,
-    tipo_usuario VARCHAR(10) NOT NULL,
+    cargo VARCHAR(10) NOT NULL,
     PRIMARY KEY (id)
 );
 
