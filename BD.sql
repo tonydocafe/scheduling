@@ -1,5 +1,5 @@
 
-USE banco;
+USE bancoteste;
 
 CREATE TABLE funcionario (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -37,33 +37,22 @@ CREATE TABLE clientes (
     PRIMARY KEY (id)
 );
 
--- Tabela de pedidos
-CREATE TABLE pedidos (
+
+CREATE TABLE agendamentos (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     cliente_id INT UNSIGNED NOT NULL,
     funcionario_id INT UNSIGNED NOT NULL,
+    servico_id INT UNSIGNED NOT NULL,
     total DECIMAL(10,2) NOT NULL DEFAULT 0.00,
-    status ENUM('Pendente', 'Pago', 'Cancelado') NOT NULL DEFAULT 'Pendente',
-    cadastrado DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    editado DATETIME DEFAULT NULL,
+    marcado DATE DEFAULT NULL,
     PRIMARY KEY (id),
+    
+    CONSTRAINT fk_pedidos_servico FOREIGN KEY (servico_id)
+        REFERENCES servico (id),
     CONSTRAINT fk_pedidos_clientes FOREIGN KEY (cliente_id)
         REFERENCES clientes (id),
-    CONSTRAINT fk_pedidos_vendedores FOREIGN KEY (vendedor_id)
-        REFERENCES usuarios (id)
+    CONSTRAINT fk_pedidos_funcionarios FOREIGN KEY (funcionarios_id)
+        REFERENCES funcionarios (id)
+    
 );
 
--- Tabela de itens do pedido
-CREATE TABLE itens_pedido (
-    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    pedido_id INT UNSIGNED NOT NULL,
-    produto_id INT UNSIGNED NOT NULL,
-    quantidade INT UNSIGNED NOT NULL,
-    preco_unitario DECIMAL(10,2) NOT NULL,
-    subtotal DECIMAL(10,2) NOT NULL,
-    PRIMARY KEY (id),
-    CONSTRAINT fk_itens_pedido_pedidos FOREIGN KEY (pedido_id)
-        REFERENCES pedidos (id),
-    CONSTRAINT fk_itens_pedido_produtos FOREIGN KEY (produto_id)
-        REFERENCES produtos (id)
-);
