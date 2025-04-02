@@ -33,7 +33,7 @@ CREATE TABLE clientes (
     email VARCHAR(100) DEFAULT NULL,
     endereço VARCHAR(100) UNIQUE NOT NULL,
     debito BOOLEAN() NOT NULL,
-    nascimento DATE NOT NULL,
+    nascimento DATE() NOT NULL,
     PRIMARY KEY (id)
 );
 
