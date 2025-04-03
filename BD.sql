@@ -1,6 +1,7 @@
 
 USE bancoteste;
 
+
 CREATE TABLE funcionario (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
