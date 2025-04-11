@@ -6,7 +6,7 @@ CREATE TABLE funcionario (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     cpf VARCHAR(14) UNIQUE ,
-    telefone VARCHAR(15) ,
+    telefone VARCHAR(15)  UNIQUE,
     email VARCHAR(100)  UNIQUE,
     login VARCHAR(50) UNIQUE,
     password VARCHAR(100) NOT NULL,
