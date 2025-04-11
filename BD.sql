@@ -7,7 +7,7 @@ CREATE TABLE funcionario (
     nome VARCHAR(100) NOT NULL,
     cpf VARCHAR(14) UNIQUE ,
     telefone VARCHAR(15) ,
-    email VARCHAR(100) ,
+    email VARCHAR(100)  UNIQUE,
     login VARCHAR(50) UNIQUE,
     password VARCHAR(100) NOT NULL,
     nascimento DATE ,
