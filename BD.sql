@@ -5,13 +5,13 @@ USE bancoteste;
 CREATE TABLE funcionario (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
-    cpf VARCHAR(14) UNIQUE NOT NULL,
-    telefone VARCHAR(15) DEFAULT NULL,
-    email VARCHAR(100) DEFAULT NULL,
-    login VARCHAR(50) UNIQUE NOT NULL,
+    cpf VARCHAR(14) UNIQUE ,
+    telefone VARCHAR(15) ,
+    email VARCHAR(100) ,
+    login VARCHAR(50) UNIQUE,
     password VARCHAR(100) NOT NULL,
-    nascimento DATE NOT NULL,
-    endereço VARCHAR(100) UNIQUE NOT NULL,
+    nascimento DATE ,
+    endereço VARCHAR(100),
     cargo VARCHAR(10) NOT NULL,
     PRIMARY KEY (id)
 );
