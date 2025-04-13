@@ -32,9 +32,9 @@ CREATE TABLE clientes (
     cpf VARCHAR(14) UNIQUE NOT NULL,
     telefone VARCHAR(15) DEFAULT NULL,
     email VARCHAR(100) DEFAULT NULL,
-    endereço VARCHAR(100) UNIQUE NOT NULL,
-    debito BOOLEAN NOT NULL,
-    nascimento DATE NOT NULL,
+    endereço VARCHAR(100) ,
+    debito BOOLEAN,
+    nascimento DATE ,
     PRIMARY KEY (id)
 );
 
