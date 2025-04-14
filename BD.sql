@@ -19,6 +19,7 @@ CREATE TABLE funcionario (
 
 CREATE TABLE servico (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    nome 
     descricao VARCHAR(255) DEFAULT NULL,
     preco DECIMAL(10,2) NOT NULL,
 
