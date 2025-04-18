@@ -37,6 +37,7 @@ CREATE TABLE agendamentos (
     servico_id INT UNSIGNED NOT NULL,
     marcado varchar(25) NOT NULL,
     hora varchar(25) NOT NULL,
+    pago varchar(25) NOT NULL,
     PRIMARY KEY (id),
     
     CONSTRAINT fk_pedidos_servico FOREIGN KEY (servico_id)
