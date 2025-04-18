@@ -35,8 +35,8 @@ CREATE TABLE agendamentos (
     cliente_id INT UNSIGNED NOT NULL,
     funcionario_id INT UNSIGNED NOT NULL,
     servico_id INT UNSIGNED NOT NULL,
-    marcado varchar(25) DEFAULT NULL,
-    hora varchar(25) DEFAULT NULL,
+    marcado varchar(25) NOT NULL,
+    hora varchar(25) NOT NULL,
     PRIMARY KEY (id),
     
     CONSTRAINT fk_pedidos_servico FOREIGN KEY (servico_id)
