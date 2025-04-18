@@ -30,12 +30,8 @@ CREATE TABLE servico (
 CREATE TABLE clientes (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
-    cpf VARCHAR(14) ,
     telefone VARCHAR(15) NOT NULL,
     email VARCHAR(100) NOT NULL,
-    endereço VARCHAR(100) ,
-    debito BOOLEAN,
-    nascimento DATE ,
     PRIMARY KEY (id)
 );
 
