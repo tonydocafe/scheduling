@@ -21,7 +21,7 @@ Este sistema conta com **quatro janelas principais**:
 O executável já está prontinho pra rodar!  
 Basta ir até a pasta `target/agendamentos` e rodar o comando:
 
-```bash
+
 java -jar agendamento-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 ## 🛠️ Configurando o Banco de Dados MySQL
@@ -29,4 +29,4 @@ java -jar agendamento-1.0-SNAPSHOT-jar-with-dependencies.jar
 Antes de rodar o sistema, é necessário criar o banco de dados e as tabelas no seu servidor MySQL.  
 Abaixo está o script SQL para criar tudo rapidinho! ⚡
 
-### 📚 Banco: `bancoteste`
+### 📚 Arquivo: BD.sql
