@@ -22,7 +22,9 @@ O executável já está prontinho pra rodar!
 Basta ir até a pasta `target/agendamentos` e rodar o comando:
 
 
+```bash
 java -jar agendamento-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
 
 ## 🛠️ Configurando o Banco de Dados MySQL
 
