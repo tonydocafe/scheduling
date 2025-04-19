@@ -22,7 +22,7 @@ public class ConexaoDAO {
     try {
         String url = "jdbc:mysql://localhost:3306/bancoteste";
         String user = "root";
-        String password = "123456";
+        String password = "senhaquevoceestiverusando";
 
         // Para MySQL 8+ adicione parâmetros de timezone e SSL
         url += "?useSSL=false&serverTimezone=UTC";
