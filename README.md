@@ -71,3 +71,8 @@ Exemplos:
 - `AgendamentoDTO`
 
 ---
+✅ **Benefícios dessa arquitetura:**
+- Código mais limpo e organizado
+- Fácil manutenção e testes
+- Separação de responsabilidades
+- Preparado para futuras expansões (como APIs REST ou novas interfaces)
