@@ -32,3 +32,19 @@ Antes de rodar o sistema, é necessário criar o banco de dados e as tabelas no 
 Abaixo está o script SQL para criar tudo rapidinho! ⚡
 
 ### 📚 Arquivo: BD.sql
+
+### 📂 MVC - Model, View e Controller
+
+- **Model (Modelo)**  
+  Contém a lógica de negócio e as classes que representam as entidades do sistema.  
+  Exemplo: `Cliente`, `Servico`, `Agendamento`.
+
+- **View (Visão)**  
+  Interface gráfica com o usuário. Inclui as telas de Login, Menu, Cadastros e Agendamentos.  
+  Exemplo: `LoginView`, `MenuPrincipal`, `CadastroCliente`, `AgendamentoView`.
+
+- **Controller (Controlador)**  
+  Intermedia a comunicação entre a View e o Model, controlando o fluxo da aplicação.  
+  Exemplo: `AgendamentoController`, `ClienteController`.
+
+---
