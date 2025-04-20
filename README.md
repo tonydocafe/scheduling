@@ -60,3 +60,14 @@ Exemplos:
 - `AgendamentoDAO`
 
 ---
+### 📦 DTO - Data Transfer Object
+
+DTOs são objetos simples usados para transportar dados entre as camadas do sistema.  
+Eles garantem que a transferência de informações seja feita de forma segura e consistente.
+
+Exemplos:
+- `ClienteDTO`
+- `ServicoDTO`
+- `AgendamentoDTO`
+
+---
