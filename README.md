@@ -48,3 +48,15 @@ Abaixo está o script SQL para criar tudo rapidinho! ⚡
   Exemplo: `AgendamentoController`, `ClienteController`.
 
 ---
+
+### 💾 DAO - Data Access Object
+
+O padrão DAO é responsável por encapsular todas as operações de acesso ao banco de dados.  
+Cada entidade possui sua própria classe DAO, que realiza as operações como `inserir`, `atualizar`, `remover` e `buscar`.
+
+Exemplos:
+- `ClienteDAO`
+- `ServicoDAO`
+- `AgendamentoDAO`
+
+---
