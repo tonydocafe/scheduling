@@ -79,3 +79,8 @@ Exemplos:
 - Fácil manutenção e testes
 - Separação de responsabilidades
 - Preparado para futuras expansões (como APIs REST ou novas interfaces)
+
+# O que é o `Agendamentos.desktop`?
+
+O arquivo `Agendamentos.desktop` é um atalho utilizado em sistemas Linux, como o Ubuntu, para criar um aplicativo clicável diretamente no menu de aplicativos ou na área de trabalho. Ele é utilizado para facilitar a execução de programas e scripts sem a necessidade de abrir o terminal.
+
