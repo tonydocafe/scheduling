@@ -11,10 +11,12 @@ Este sistema conta com **quatro janelas principais**:
 
 🔐 **Login** – Onde tudo começa! Digite suas credenciais e entre no sistema.  
 ![login](images/login.png)
-📋 **Menu** – A central de comandos! Navegue por todas as funcionalidades com facilidade.  
-📝 **Cadastros** – Registre clientes, serviços e tudo mais que for preciso.  
+📋 **Menu** – A central de comandos! Navegue por todas as funcionalidades com facilidade.
+![menu](images/menu.png)
+📝 **Cadastros** – Registre clientes, serviços e tudo mais que for preciso. 
+![cadastros](images/cadastros.png)
 📅 **Agendamentos** – Programe seus compromissos com estilo e organização.
-
+![agenda](images/agendamentos.png)
 ---
 
 ## 🚀 Como executar?
