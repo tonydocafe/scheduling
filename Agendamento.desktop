@@ -2,8 +2,8 @@
 Type=Application
 Version=1.0
 Name=Sistema de Agendamento
-Exec= sh -c "java -jar /home/perolanegra/NetBeansProjects/agendamento/target/agendamento-1.0-SNAPSHOT-jar-with-dependencies.jar"
-Icon=/home/perolanegra/Imagens/Icone.png
+Exec= sh -c "java -jar /home/seusistema/NetBeansProjects/agendamento/target/agendamento-1.0-SNAPSHOT-jar-with-dependencies.jar"
+Icon=/home/seusistema/Imagens/Icone.png
 Terminal=false
 StartupNotify=true
 Categories=Application;
