@@ -10,6 +10,7 @@ Este projeto foi desenvolvido em **Java** e utiliza **MySQL** como banco de dado
 Este sistema conta com **quatro janelas principais**:
 
 🔐 **Login** – Onde tudo começa! Digite suas credenciais e entre no sistema.  
+![login](images/login.png)
 📋 **Menu** – A central de comandos! Navegue por todas as funcionalidades com facilidade.  
 📝 **Cadastros** – Registre clientes, serviços e tudo mais que for preciso.  
 📅 **Agendamentos** – Programe seus compromissos com estilo e organização.
